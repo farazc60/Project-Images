@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="95" fill="#0b1926" />
+  <circle cx="100" cy="100" r="85" fill="none" stroke="#e67e22" stroke-width="3" />
+  
+  <!-- Gear Icon -->
+  <g fill="#ffffff">
+    <path d="M100,50 L110,50 L115,65 C118.5,66 122,67.5 125,69.5 L140,63 L145,72 L135,85 C136,88.5 136.5,92 136.5,95.5 C136.5,99 136,102.5 135,106 L145,119 L140,128 L125,121.5 C122,123.5 118.5,125 115,126 L110,141 L100,141 L95,126 C91.5,125 88,123.5 85,121.5 L70,128 L65,119 L75,106 C74,102.5 73.5,99 73.5,95.5 C73.5,92 74,88.5 75,85 L65,72 L70,63 L85,69.5 C88,67.5 91.5,66 95,65 L100,50 Z" />
+    <circle cx="100" cy="95.5" r="15" fill="#0b1926" />
+  </g>
+  
+  <!-- Welding Spark Lines -->
+  <g stroke="#e67e22" stroke-width="2">
+    <line x1="45" y1="45" x2="35" y2="35" stroke-linecap="round" />
+    <line x1="155" y1="45" x2="165" y2="35" stroke-linecap="round" />
+    <line x1="45" y1="155" x2="35" y2="165" stroke-linecap="round" />
+    <line x1="155" y1="155" x2="165" y2="165" stroke-linecap="round" />
+  </g>
+  
+  <!-- Metal Bar Elements -->
+  <rect x="30" y="85" width="30" height="10" fill="#e67e22" rx="2" ry="2" />
+  <rect x="140" y="85" width="30" height="10" fill="#e67e22" rx="2" ry="2" />
+  <rect x="45" y="140" width="110" height="10" fill="#e67e22" rx="2" ry="2" />
+</svg>
